@@ -22,7 +22,7 @@ else a generic "Bug fixes and improvements" line. Delete old sections.
 - 在中國大陸也能收到推播通知了。
 
 ### en-US
-- An agent that is installed but not ready is no longer labeled Not installed: the picker says Not ready, or Needs Node.js when that is what it waits for.
+- The picker now says Not ready or Needs Node.js when an installed agent can't run yet.
 - A new Threads tab gathers what your bots are working on and what waits, its badge counting what is being worked on. The Work button at the top of the bot list is gone.
 - The Bots tab has the robot icon the desktop app uses, and its top right holds Filter, Search and New: search finds bots by name, and the connection status sits under the title.
 - Changing a bot's agent or login profile no longer starts it from nothing: your next message carries a summary of the conversation. Until then a divider in the chat reads Context handoff pending with both agents; afterwards tap it to see what was carried.
