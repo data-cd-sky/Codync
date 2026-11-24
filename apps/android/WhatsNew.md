@@ -9,6 +9,7 @@ else a generic "Bug fixes and improvements" line. Delete old sections.
 
 ## 2.54.0
 ### zh-Hant
+- 已安裝但尚未就緒的 agent 不再顯示「未安裝」：清單顯示「尚未就緒」，缺少 Node.js 時直接說明需要 Node.js。
 - 新增 Threads 分頁：Bot 正在處理和排隊中的工作都集中在這裡，分頁上的數字是正在處理的數量；原本 Bot 列表上方的「工作」按鈕已移除。
 - Bot 分頁的圖示改成機器人，和電腦版一致；右上角改成篩選、搜尋和新增三個按鈕，搜尋可以用名稱找 Bot，連線狀態移到標題下方。
 - 換 Bot 的 agent 或登入設定檔後，新的 agent 不再從零開始：下一則訊息會帶上目前對話的摘要。送出前聊天裡會出現「脈絡交接待進行」的分隔線，標出從哪個 agent 換到哪個，送出後可以點開看帶了什麼。
@@ -19,9 +20,9 @@ else a generic "Bug fixes and improvements" line. Delete old sections.
 - 選 agent 時一起選登入設定檔：Bot 設定和 fallback 的 agent 清單裡，每個 agent 依登入設定檔各列一次，清單最後可以新增登入設定檔；原本獨立的「登入設定檔」列已移除。
 - 聊天的輸入框改成上下兩層：上面打字，下面一排是加檔案的 +、Bot 目前的 agent 和模型、麥克風和送出鍵。點模型就能直接換 agent、登入設定檔、模型和推理強度，不必進 Bot 設定。
 - 在中國大陸也能收到推播通知了。
-- 已安裝但尚未就緒的 agent 不再顯示「未安裝」：agent 清單會顯示「尚未就緒」，缺少 Node.js 時則直接說明需要 Node.js。
 
 ### en-US
+- An agent that is installed but not ready is no longer labeled Not installed: the picker says Not ready, or Needs Node.js when that is what it waits for.
 - A new Threads tab gathers what your bots are working on and what waits, its badge counting what is being worked on. The Work button at the top of the bot list is gone.
 - The Bots tab has the robot icon the desktop app uses, and its top right holds Filter, Search and New: search finds bots by name, and the connection status sits under the title.
 - Changing a bot's agent or login profile no longer starts it from nothing: your next message carries a summary of the conversation. Until then a divider in the chat reads Context handoff pending with both agents; afterwards tap it to see what was carried.
@@ -32,7 +33,6 @@ else a generic "Bug fixes and improvements" line. Delete old sections.
 - Pick an agent and its login profile in one step: a bot's and each fallback's agent list shows every agent once per login profile and ends with Add login profile. The separate Login profile row is gone.
 - The message box now has two layers: you type on top, and under it are the + for files, the bot's agent and model, the mic and send. Tap the model to switch the agent, login profile, model or effort without opening the bot's settings.
 - Push notifications now reach phones and computers in mainland China.
-- An agent that is installed but not ready is no longer labeled Not installed: the picker says Not ready, or Needs Node.js when that is what it waits for.
 
 ## 2.53.0
 ### zh-Hant
